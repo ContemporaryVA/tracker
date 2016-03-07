@@ -1,0 +1,22 @@
+{
+    "name": "contemporaryva/tracker",
+    "authors": [
+        {
+            "name": "Ivan Novak",
+            "email": "inovak1@gmail.com"
+        }, {
+            "name": "Ronald Castillo",
+            "email": "ronaldcastillo@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.1.*",
+        "nulpunkt/monolog-elasticsearch-logstashformat": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ContemporaryVA\\Tracker\\": "src/Tracker",
+            "ContemporaryVA\\Monolog\\": "src/Monolog"
+        }
+    }
+}
